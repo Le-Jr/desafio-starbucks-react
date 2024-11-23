@@ -13,6 +13,7 @@ export const LogoStyle = styled.img`
   width: 110px;
   height: 110px;
   text-align: center;
+  margin-left: 5em;
 `;
 
 export const UlStyle = styled.ul`
@@ -21,6 +22,7 @@ export const UlStyle = styled.ul`
   width: 300px;
   list-style: none;
   font-size: 24px;
+  margin-right: 5em;
 
   a {
     text-decoration: none;
