@@ -9,7 +9,7 @@ import {
   Main,
   P,
   TitleStyle,
-} from "./style";
+} from "./style.jsx";
 
 import { useState } from "react";
 
