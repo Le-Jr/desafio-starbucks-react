@@ -11,7 +11,11 @@ import {
   TitleStyle,
 } from "./style";
 
+import { useState } from "react";
+
 const Home = () => {
+  const [image, setImage] = useState(1);
+
   return (
     <>
       <Main>
@@ -32,16 +36,37 @@ const Home = () => {
         </TitleStyle>
 
         <BigCup className="BigCup">
-          <ImgCup src="copo_grande_amarelo.png" alt="" />
-          <ImgElipse src="elipse_verde.png" alt="" />
+          <ImgCup src={`copo_grande_${image}.png`} alt="" />
+          <ImgElipse src={`elipse_${image}.png`} alt="" />
         </BigCup>
       </Main>
 
       <footer>
         <Div>
-          <img src="copo_pequeno_amarelo.png" alt="" />
-          <img src="copo_pequeno_vermelho.png" alt="" />
-          <img src="copo_pequeno_laranja.png" alt="" />
+          <img
+            src="copo_pequeno_amarelo.png"
+            alt=""
+            id="1"
+            onClick={() => {
+              setImage(1);
+            }}
+          />
+          <img
+            src="copo_pequeno_vermelho.png"
+            alt=""
+            id="2"
+            onClick={() => {
+              setImage(2);
+            }}
+          />
+          <img
+            src="copo_pequeno_laranja.png"
+            alt=""
+            id="3"
+            onClick={() => {
+              setImage(3);
+            }}
+          />
         </Div>
       </footer>
     </>

@@ -81,9 +81,8 @@ export const BigCup = styled.section`
 
 export const ImgElipse = styled.img`
   position: absolute;
-  right: 0;
   top: 50%;
-  transform: translateY(-8%);
+  transform: translateY(-5%);
   z-index: 1;
 `;
 
