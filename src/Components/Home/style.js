@@ -64,9 +64,16 @@ export const Div = styled.div`
   gap: 50px;
   /* border: solid 1px black; */
 
-  img:hover {
+  /* img:hover {
     transform: rotate(12deg);
     cursor: pointer;
+  } */
+`;
+
+export const HoverCup = styled.img`
+  &:hover {
+    cursor: pointer;
+    transform: rotate(12deg);
   }
 `;
 

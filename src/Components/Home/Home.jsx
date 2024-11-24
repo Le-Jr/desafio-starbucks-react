@@ -4,6 +4,7 @@ import {
   Div,
   H1,
   H2,
+  HoverCup,
   ImgCup,
   ImgElipse,
   Main,
@@ -44,7 +45,7 @@ const Home = () => {
 
       <footer>
         <Div>
-          <img
+          <HoverCup
             src="copo_pequeno_amarelo.png"
             alt=""
             id="1"
@@ -52,7 +53,7 @@ const Home = () => {
               setImage(1);
             }}
           />
-          <img
+          <HoverCup
             src="copo_pequeno_vermelho.png"
             alt=""
             id="2"
@@ -60,7 +61,7 @@ const Home = () => {
               setImage(2);
             }}
           />
-          <img
+          <HoverCup
             src="copo_pequeno_laranja.png"
             alt=""
             id="3"
