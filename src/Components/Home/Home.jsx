@@ -8,8 +8,9 @@ import {
   ImgElipse,
   Main,
   P,
+  Span,
   TitleStyle,
-} from "./style.jsx";
+} from "./style.js";
 
 import { useState } from "react";
 
@@ -22,7 +23,7 @@ const Home = () => {
         <TitleStyle className="Title">
           <H2>Mais que Café</H2>
           <H1>
-            Isso é <span className="starbucks">Starbucks</span>
+            Isso é <Span className="starbucks">Starbucks</Span>
           </H1>
 
           <P>

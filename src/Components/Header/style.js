@@ -37,3 +37,15 @@ export const UlStyle = styled.ul`
     color: #008046;
   }
 `;
+
+// export const StyleLink = styled(Link)`
+//     text-decoration: none;
+//     color: #1e3932;
+//     font-size: 20px;
+//     transition: ease-in-out;
+//     transition-duration: 250ms;
+
+//     &:hover{
+//        color: palevioletred;
+//     }
+// `;

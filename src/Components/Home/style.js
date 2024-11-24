@@ -22,12 +22,12 @@ export const H1 = styled.h1`
   font-size: 64px;
   margin-bottom: 20px;
   font-weight: 400;
+`;
 
-  span.starbucks {
-    color: #037143;
-    font-weight: 700;
-    font-size: 96px;
-  }
+export const Span = styled.span`
+  color: #037143;
+  font-weight: 700;
+  font-size: 96px;
 `;
 
 export const H2 = styled.h2`
