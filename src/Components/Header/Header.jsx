@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HeaderStyle, LogoStyle, UlStyle } from "./style";
+import { HeaderStyle, LogoStyle, UlStyle } from "/src/Components/Header/style";
 
 const Header = () => {
   return (

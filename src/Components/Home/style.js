@@ -38,7 +38,7 @@ export const H2 = styled.h2`
 `;
 
 export const P = styled.p`
-  width: 700px;
+  width: 70%;
   font-size: 24px;
   margin-bottom: 20px;
   font-weight: 400;

@@ -11,7 +11,7 @@ import {
   P,
   Span,
   TitleStyle,
-} from "./style.js";
+} from "/src/Components/Home/style.js";
 
 import { useState } from "react";
 
