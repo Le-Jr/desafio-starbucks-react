@@ -23,29 +23,16 @@ export const UlStyle = styled.ul`
   list-style: none;
   font-size: 24px;
   margin-right: 5em;
-
-  a {
-    text-decoration: none;
-    color: #1e3932;
-    font-size: 20px;
-    transition: ease-in-out;
-    transition-duration: 250ms;
-  }
-
-  a:hover {
-    cursor: pointer;
-    color: #008046;
-  }
 `;
 
-// export const StyleLink = styled(Link)`
-//     text-decoration: none;
-//     color: #1e3932;
-//     font-size: 20px;
-//     transition: ease-in-out;
-//     transition-duration: 250ms;
+export const StyleLink = styled(Link)`
+  text-decoration: none;
+  color: #1e3932;
+  font-size: 20px;
+  transition: ease-in-out;
+  transition-duration: 250ms;
 
-//     &:hover{
-//        color: palevioletred;
-//     }
-// `;
+  &:hover {
+    color: palevioletred;
+  }
+`;

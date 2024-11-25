@@ -7,7 +7,6 @@ export const Section = styled.section`
   justify-content: center;
   height: 90vh;
   width: 100%;
-  /* border: solid 1px black; */
   background-color: #1e3932;
   color: white;
 `;

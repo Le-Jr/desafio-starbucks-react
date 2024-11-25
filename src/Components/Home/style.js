@@ -15,7 +15,6 @@ export const TitleStyle = styled.section`
   width: 800px;
   margin-left: 5em;
   margin-top: 6em;
-  /* border: solid 1px black; */
 `;
 
 export const H1 = styled.h1`
@@ -62,12 +61,6 @@ export const Div = styled.div`
   align-items: flex-end;
   justify-content: center;
   gap: 50px;
-  /* border: solid 1px black; */
-
-  /* img:hover {
-    transform: rotate(12deg);
-    cursor: pointer;
-  } */
 `;
 
 export const HoverCup = styled.img`
@@ -81,7 +74,6 @@ export const BigCup = styled.section`
   display: flex;
   align-items: flex-end;
   justify-content: center;
-  /* border: solid 1px black; */
   position: relative;
   z-index: 2;
 `;
