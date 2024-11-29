@@ -66,6 +66,7 @@ Tecnologias utilizadas no projeto:
 - [ReactJs](https://react.dev/learn) - A biblioteca web utilizada
 - [Styled Components](https://styled-components.com/docs) - Biblioteca usada para estilização
 - [VITE](https://vite.dev/guide/) - Usado para fazer o build do projeto
+- [VS Code](https://code.visualstudio.com/) - IDE para construir a aplicação
 
 ## ✒️ Autor
 
