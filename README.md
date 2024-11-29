@@ -60,6 +60,7 @@ yarn run dev
 ## 🛠️ Construído com
 
 Tecnologias utilizadas no projeto:
+
 [![My Skills](https://skillicons.dev/icons?i=react,styledcomponents,npm,vscode,vite,&theme=light)](https://skillicons.dev)
 
 - [ReactJs](https://react.dev/learn) - A biblioteca web utilizada
