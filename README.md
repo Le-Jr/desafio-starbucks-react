@@ -84,7 +84,7 @@ Tecnologias utilizadas no projeto:
 
 ## 🎁 Expressões de gratidão
 
-- Agradecimentos, especialmente à instrutora <a href="https://github.com/mariaccarolina" target="blank" >Carol</a> e ao facilitador <a href="https://github.com/kleber-matos" target="blank">Kleber</a>
+- Agradecimentos, especialmente à instrutora <a href="https://github.com/mariaccarolina" target="_blank" >Carol</a> e ao facilitador <a href="https://github.com/kleber-matos" target="_blank">Kleber</a>
   ,pelos ensinamentos que possibilitaram a existência deste projeto
 
 ---
